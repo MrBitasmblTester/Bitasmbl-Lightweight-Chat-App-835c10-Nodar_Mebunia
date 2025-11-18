@@ -1,0 +1,1 @@
+{\n  "name": "lightweight-chat-frontend",\n  "version": "0.1.0",\n  "dependencies": { "react": "^18.2.0", "react-dom": "^18.2.0", "socket.io-client": "^4.7.2" }\n}
