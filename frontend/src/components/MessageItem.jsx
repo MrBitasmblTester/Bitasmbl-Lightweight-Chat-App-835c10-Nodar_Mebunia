@@ -1,0 +1,1 @@
+import React from 'react';\nexport default function MessageItem({message}){\n if(message.system) return <div><em>{message.type} {message.anonId}</em></div>;\n return <div><strong>{message.anonId}</strong>: {message.text} <small>{new Date(message.timestamp).toLocaleTimeString()}</small></div>;\n}
